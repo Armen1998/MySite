@@ -1,0 +1,135 @@
+*{margin: 0;}
+.menu{
+	padding: 50px;
+	display: flex;
+	justify-content: right;
+}
+
+
+nav ul{list-style: none;
+       }
+
+li{
+	float: left;
+	margin-left: 30px;
+	
+}
+a{text-decoration: none;
+  color:#5F5F5F ;}
+
+a:hover{color: black}
+
+
+
+.section-1{
+	padding: 70px;
+	background-color: #F6F6F6;
+}
+
+.main{
+	display: flex;
+}
+
+.cards{
+	margin-top: 20px;
+}
+
+
+.about{
+	
+	padding: 10px;
+	background-color: black;
+	margin:0px 0px 5px 5px;
+}
+
+.about p{
+	color: white;
+}
+
+
+.dv-1{
+	background-image: url('./img/Zugpsitze_mountain.jpg');
+	height: 200px;
+}
+.img{display: flex;
+	align-items: flex-end;
+	background-size: 100% 100%;}
+.text{
+	color:gray ;
+}
+.info{
+	background-color: white;
+	padding: 20px;
+}
+
+.date{
+	padding:10px 0;
+}
+
+.dv-2{
+	background-image: url('./img./City.jpg');
+	height: 200px;
+}
+
+
+.dv-3{
+	background-image: url('./img./Nature.jpg');
+	height: 300px;
+}
+
+.dv-4{
+	background-image: url('./img/Brand.jpg');
+	height: 300px;
+}
+
+.dv-5{
+	background-image: url('./img/Design.jpg');
+	height: 200px;
+}
+.dv-6{
+	background-image: url(./img/Design-2.jpg);
+	height: 200px;
+}
+
+.dv-7{
+	background-image: url('./img/Nature-2.jpg');
+	height: 200px;
+}
+.dv-8{
+	background-image: url('./img/Brand-2.jpg');
+	height: 200px;
+}
+.dv-9{
+	background-image: url('./img/City-2.jpg');
+	height: 300px;
+}
+
+.column{
+	display: flex;
+	flex-flow: column;
+	width: 30%;
+	margin-left: 3%;
+}
+
+.load{
+	padding: 20px;
+	font-weight: bold;
+}
+
+.footer{
+	background-color: #EBEBEB;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	height: 100px;
+}
+
+.icons{
+	width: 10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+i{
+	margin-left: 3%;
+}
